@@ -1,0 +1,5 @@
+void main() {
+  List<int> numbers = [1, 2, 3, 4, 5];//This line declares a new variable called numbers and initializes it with a List of integers [1, 2, 3, 4, 5]. The List<int> syntax specifies that the List contains integers.
+  int sum = numbers.fold(0, (int previousValue, int element) => previousValue + element);
+  print(sum); // Output: 15
+}
